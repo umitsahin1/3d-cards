@@ -1,7 +1,7 @@
 // test.jsx
-import React from 'react';
-import { MouseEnterProvider } from './components/ui/3d-card';
-import { CardContainer, CardBody, CardItem } from './components/ui/3d-card';
+import React from "react";
+import { MouseEnterProvider } from "./components/ui/3d-card";
+import { CardContainer, CardBody, CardItem } from "./components/ui/3d-card";
 
 export function ThreeDCardDemo() {
   return (
@@ -31,15 +31,6 @@ export function ThreeDCardDemo() {
             />
           </CardItem>
           <div className="flex justify-between items-center mt-20">
-            <CardItem
-              translateZ={20}
-              as="a"
-              href="https://twitter.com/mannupaaji" 
-              target="_blank"
-              className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-            >
-              Try now →
-            </CardItem>
             <CardItem
               translateZ={20}
               as="button"
